@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit Your Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Milton Innovation Center</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Project Menu</a></li>
+      <li><a href="gallery.html">Student Work</a></li>
+      <li><a href="submit.html">Submit Your Project</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section>
+      <form id="projectForm">
+        <label>
+          Name:
+          <input type="text" id="studentName" required />
+        </label>
+        <label>
+          Project Title:
+          <input type="text" id="projectTitle" required />
+        </label>
+        <label>
+          Project Description:
+          <textarea id="projectDesc" required></textarea>
+        </label>
+        <label>
+          Upload Photo:
+          <input type="file" id="projectPhoto" accept="image/*" required />
+        </label>
+        <button type="submit">Submit Project</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Milton Innovation Center</p>
+  </footer>
+  <script src="submit.js"></script>
+</body>
+</html>
